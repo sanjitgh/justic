@@ -21,6 +21,8 @@
                 extend: {
                     colors: {
                         yellow: '#B68C5A',
+                        dark_3:'#707070',
+                        dark_2:'#414040',
                     }
                 }
             }
@@ -165,21 +167,145 @@
     <!-- main section -->
     <main>
         <!-- banner section -->
-            <section class="hero bg-[url(images/banner.webp)] bg-center bg-no-repeat bg-cover min-h-[555px] rounded-lg my-10">
-                <div class="hero-overlay bg-black bg-opacity-30 rounded-lg"></div>
-                <div class="hero-content text-center px-4 p-0">
-                    <div class="max-w-[650px] text-white">
-                        <h1 class="mb-5 text-4xl lg:text-6xl font-bold eb-garamond">We Provide Effective Legal Solutions</h1>
-                        <p class="mb-5">
-                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
-                        </p>
-                        <div class="flex gap-4 justify-center">
-                            <input class="px-3 py-2 bg-white rounded-lg flex-1 text-gray-500 outline-none" placeholder="Search your services" type="text">
-                            <button class="btn bg-yellow border-none text-white md:px-8 hover:bg-yellow">Search</button>
-                        </div>
+        <section class="hero bg-[url(images/banner.webp)] bg-center bg-no-repeat bg-cover min-h-[555px] rounded-lg my-10">
+            <div class="hero-overlay bg-black bg-opacity-30 rounded-lg"></div>
+            <div class="hero-content text-center px-4 p-0">
+                <div class="max-w-[650px] text-white">
+                    <h1 class="mb-5 text-4xl lg:text-6xl font-bold eb-garamond">We Provide Effective Legal Solutions</h1>
+                    <p class="mb-5">
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
+                    </p>
+                    <div class="flex gap-4 justify-center">
+                        <input class="px-3 py-2 bg-white rounded-lg flex-1 text-gray-500 outline-none" placeholder="Search your services" type="text">
+                        <button class="btn bg-yellow border-none text-white md:px-8 hover:bg-yellow">Search</button>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
+
+        <!-- The Legal Practice Area section -->
+         <section class="py-10">
+            <!-- section header -->
+             <div class="text-center">
+                <h1 class="eb-garamond text-dark_2 font-bold text-3xl lg:text-[40px] mb-5">The Legal Practice Area</h1>
+                <p class="text-dark_3 max-w-2xl mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+             </div>
+
+             <!-- section card container -->
+             <div class="grid sm:gap-3 lg:gap-0 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-16">
+                <!-- card 1 -->
+                <div class="card rounded-none lg:border-b lg:border-[#E7E7E7] py-8">
+                    <figure class="p-5">
+                      <img src="images/business.webp" alt="">
+                    </figure>
+                    <div class="card-body items-center text-center lg:px-10 px-0 pt-2">
+                      <h2 class="card-title text-dark_2 text-2xl mb-3">Business Law</h2>
+                      <p class="text-dark_3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                      <div class="card-actions">
+                        <button class="w-8 h-8 bg-yellow rounded-full text-white flex justify-center items-center mt-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                              </svg>
+                              
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- card 2 -->
+                <div class="card rounded-none lg:border-b lg:border-r lg:border-l lg:border-[#E7E7E7] py-8 bg-gradient-to-t from-white to-[#E7E7E7] ">
+                    <figure class="p-5">
+                      <img src="images/criminal.webp" alt="">
+                    </figure>
+                    <div class="card-body items-center text-center lg:px-10 px-0 pt-2">
+                      <h2 class="card-title text-dark_2 text-2xl mb-3">Criminal Law</h2>
+                      <p class="text-dark_3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                      <div class="card-actions">
+                        <button class="w-8 h-8 bg-yellow rounded-full text-white flex justify-center items-center mt-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                              </svg>
+                              
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- card 3 -->
+                <div class="card rounded-none lg:border-b lg:border-[#E7E7E7] py-8">
+                    <figure class="p-5">
+                      <img src="images/child.webp" alt="">
+                    </figure>
+                    <div class="card-body items-center text-center lg:px-10 px-0 pt-2">
+                      <h2 class="card-title text-dark_2 text-2xl mb-3">Child Support</h2>
+                      <p class="text-dark_3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                      <div class="card-actions">
+                        <button class="w-8 h-8 bg-yellow rounded-full text-white flex justify-center items-center mt-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                              </svg>
+                              
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- card 4 -->
+                <div class="card rounded-none py-8">
+                    <figure class="p-5">
+                      <img src="images/education.webp" alt="">
+                    </figure>
+                    <div class="card-body items-center text-center lg:px-10 px-0 pt-2">
+                      <h2 class="card-title text-dark_2 text-2xl mb-3">Education Law</h2>
+                      <p class="text-dark_3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                      <div class="card-actions">
+                        <button class="w-8 h-8 bg-yellow rounded-full text-white flex justify-center items-center mt-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                              </svg>
+                              
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- card 5 -->
+                <div class="card rounded-none py-8 lg:border-r lg:border-l lg:border-[#E7E7E7]">
+                    <figure class="p-5">
+                      <img src="images/divorce.webp" alt="">
+                    </figure>
+                    <div class="card-body items-center text-center lg:px-10 px-0 pt-2">
+                      <h2 class="card-title text-dark_2 text-2xl mb-3">Divorce Law</h2>
+                      <p class="text-dark_3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                      <div class="card-actions">
+                        <button class="w-8 h-8 bg-yellow rounded-full text-white flex justify-center items-center mt-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                              </svg>
+                              
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- card 6 -->
+                <div class="card rounded-none py-8">
+                    <figure class="p-5">
+                      <img src="images/tax.webp" alt="">
+                    </figure>
+                    <div class="card-body items-center text-center lg:px-10 px-0 pt-2">
+                      <h2 class="card-title text-dark_2 text-2xl mb-3">Tax Law</h2>
+                      <p class="text-dark_3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                      <div class="card-actions">
+                        <button class="w-8 h-8 bg-yellow rounded-full text-white flex justify-center items-center mt-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                              </svg>
+                              
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  
+             </div>
+
+         </section>
+
     </main>
 
 
