@@ -27,6 +27,7 @@
               yellow: "#B68C5A",
               dark_3: "#707070",
               dark_2: "#414040",
+              dark_5: "#CFCFCF",
             },
           },
         },
@@ -45,12 +46,15 @@
       ul > li > a:active {
         background-color: transparent !important;
       }
+      .border_rad {
+        border-radius: 8px !important;
+      }
     </style>
   </head>
 
-  <body class="poppins-font max-w-[1170px] mx-auto px-3 xl:px-0">
+  <body class="poppins-font">
     <!-- header section -->
-    <header class="py-4">
+    <header class="py-4 max-w-[1170px] mx-auto px-3 xl:px-0">
       <nav>
         <div class="navbar bg-base-100">
           <div class="navbar-start">
@@ -279,7 +283,7 @@
     </header>
 
     <!-- main section -->
-    <main>
+    <main class="max-w-[1170px] mx-auto px-3 xl:px-0">
       <!-- banner section -->
       <section
         class="hero bg-[url(images/banner.webp)] bg-center bg-no-repeat bg-cover min-h-[555px] rounded-lg my-10"
@@ -944,13 +948,89 @@
               <textarea
                 rows="5"
                 class="textarea focus:outline-none w-full px-7 py-5 bg-[#F3F3F3]"
-                placeholder="Your Message" he
+                placeholder="Your Message"
+                he
               ></textarea>
-              <button class="w-full bg-yellow rounded-lg text-white text-lg font-extrabold px-7 py-5">Send Message</button>
+              <button
+                class="w-full bg-yellow rounded-lg text-white text-lg font-extrabold px-7 py-5"
+              >
+                Send Message
+              </button>
             </form>
           </div>
         </div>
       </section>
     </main>
+
+    <footer class="bg-[#111111] xl:py-28 py-16">
+      <div
+        class="max-w-[1170px] mx-auto px-3 xl:px-0 grid md:grid-cols-2 xl:grid-cols-4 gap-8"
+      >
+        <!-- item 1 -->
+        <div>
+          <img src="images/logo.webp" class="mb-8 max-w-40" alt="footerLogo" />
+          <p class="text-dark_5">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour.
+          </p>
+        </div>
+        <!-- item 2 -->
+        <div>
+          <h3 class="eb-garamond font-extrabold text-2xl mb-8 text-white">
+            Usefull Link
+          </h3>
+          <ul class="text-dark_5 space-y-2">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Cases</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <!-- item 3 -->
+        <div>
+          <h3 class="eb-garamond font-extrabold text-2xl mb-8 text-white">
+            Contact Now
+          </h3>
+          <ul class="text-dark_5 space-y-2">
+            <li>
+              555 4th 5t NW, Washington <br />
+              DC 20530, United States
+            </li>
+            <li>
+              +88 01750 000 000 <br />
+              +88 01750 000 000
+            </li>
+
+            <li>
+              info@gmail.com <br />
+              info@gmail.com
+            </li>
+          </ul>
+        </div>
+        <!-- item 4 -->
+        <div>
+          <h3 class="eb-garamond font-extrabold text-2xl mb-8 text-white">
+            Subscribe
+          </h3>
+          <p class="max-w-56 text-dark_5 mb-3">
+            Subscribe for our latest & Articles. We Won’t Give You Spam Mails
+          </p>
+          <div class="join">
+            <input
+              class="input border-none input-bordered join-item p-7"
+              placeholder="Email Address"
+              autocomplete="off"
+            />
+            <button
+              class="w-16 text-center flex justify-center items-center border-none relative -ml-2 hover:bg-yellow join-item border_rad bg-yellow"
+            >
+              <img src="images/Vector.png" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
